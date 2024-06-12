@@ -10,13 +10,13 @@
 Summary:	Blosc: A blocking, shuffling and lossless compression library
 Summary(pl.UTF-8):	Blosc: biblioteka blokowej, przetasowującej i bezstratnej kompresji
 Name:		c-blosc
-Version:	1.21.2
+Version:	1.21.5
 Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/Blosc/c-blosc/releases
 Source0:	https://github.com/Blosc/c-blosc/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	43659f2923490559d5304becff9f4b8b
+# Source0-md5:	5097ee61dc1f25281811f5a55b91b2e4
 Patch0:		%{name}-sse2.patch
 URL:		https://www.blosc.org/
 BuildRequires:	cmake >= 2.8.12
